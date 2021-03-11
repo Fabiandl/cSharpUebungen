@@ -48,6 +48,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V_LINQ", "V_LINQ\V_LINQ.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W_GUI", "W_GUI\W_GUI.csproj", "{ED0C908E-D09B-4314-A608-F80938BD52C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x_Threads", "x_Threads\x_Threads.csproj", "{8280E462-A713-4952-B001-F465E98AB0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Y_ParallelSieb", "Y_ParallelSieb\Y_ParallelSieb.csproj", "{81B1AA59-F7BD-402B-937A-8FE565161081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,5 +154,13 @@ Global
 		{ED0C908E-D09B-4314-A608-F80938BD52C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED0C908E-D09B-4314-A608-F80938BD52C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED0C908E-D09B-4314-A608-F80938BD52C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8280E462-A713-4952-B001-F465E98AB0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8280E462-A713-4952-B001-F465E98AB0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8280E462-A713-4952-B001-F465E98AB0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8280E462-A713-4952-B001-F465E98AB0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B1AA59-F7BD-402B-937A-8FE565161081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B1AA59-F7BD-402B-937A-8FE565161081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B1AA59-F7BD-402B-937A-8FE565161081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B1AA59-F7BD-402B-937A-8FE565161081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
