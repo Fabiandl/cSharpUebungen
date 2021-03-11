@@ -35,7 +35,7 @@ namespace Y_ParallelSieb {
         }
 
         static void Main(string[] args) {
-            const long n = 100;
+            const long n = 1000000000;
             SiebSimple S = new SiebSimple(n);
             Stopwatch StopWatch = new Stopwatch();
 
