@@ -12,7 +12,7 @@ namespace x_Threads
         {
             DynamischeThreadsAnzahl();
 
-            festeThreadAnzahl();
+            // festeThreadAnzahl();
 
             Console.WriteLine($"Summe ist {sum}");
         }
@@ -46,9 +46,12 @@ namespace x_Threads
 
         private static void DynamischeThreadsAnzahl()
         {
+            Stopwatch StopWatch = new Stopwatch();
+            StopWatch.Start();
+            
             int anzahlThr = 4;
-            int parts = 10000 / 4;
-            Thread[] tr = new Thread[4];
+            int parts = 1000000 / anzahlThr;
+            Thread[] tr = new Thread[anzahlThr];
             for (int i = 0; i < anzahlThr; i++)
             {
                 int a = i * parts;
@@ -62,13 +65,9 @@ namespace x_Threads
                 Worker w = new Worker();
                 Thread t = new Thread(() => w.summieren(a, b)) {Name = $"t{i}"};
                 tr[i] = t;
+                t.Start();
             }
-            Stopwatch StopWatch = new Stopwatch();
-            StopWatch.Start();
-            for (int i = 0; i < anzahlThr; i++)
-            {
-                tr[i].Start();
-            }
+            
 
             for (int i = 0; i < anzahlThr; i++)
             {
