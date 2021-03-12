@@ -52,6 +52,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "x_Threads", "x_Threads\x_Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Y_ParallelSieb", "Y_ParallelSieb\Y_ParallelSieb.csproj", "{81B1AA59-F7BD-402B-937A-8FE565161081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_ThreadPool", "Z_ThreadPool\Z_ThreadPool.csproj", "{2CCD4503-EC5F-497F-B918-2C3B55B9DBDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_Tasks", "zz_Tasks\zz_Tasks.csproj", "{950314F4-A77F-4CF2-96C7-794779652926}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +166,13 @@ Global
 		{81B1AA59-F7BD-402B-937A-8FE565161081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B1AA59-F7BD-402B-937A-8FE565161081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B1AA59-F7BD-402B-937A-8FE565161081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCD4503-EC5F-497F-B918-2C3B55B9DBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCD4503-EC5F-497F-B918-2C3B55B9DBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCD4503-EC5F-497F-B918-2C3B55B9DBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCD4503-EC5F-497F-B918-2C3B55B9DBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950314F4-A77F-4CF2-96C7-794779652926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950314F4-A77F-4CF2-96C7-794779652926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950314F4-A77F-4CF2-96C7-794779652926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950314F4-A77F-4CF2-96C7-794779652926}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
