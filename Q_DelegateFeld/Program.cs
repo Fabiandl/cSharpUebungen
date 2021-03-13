@@ -31,9 +31,7 @@ namespace Q_DelegateFeld
                     Funktion f = funcs[j];
                     Console.Write($"({i}): {f(i),8} |");
                 }
-                {
-                    
-                }
+
                 Console .WriteLine();
             }
         }

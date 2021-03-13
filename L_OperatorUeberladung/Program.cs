@@ -5,6 +5,23 @@ namespace L_OperatorUeberladung
 {
     public class Komplex : IComparable
     {
+
+        public static void Main(string[] args)
+        {
+            Komplex k1 = new Komplex(1, 2);
+            Komplex k2 = new Komplex(1, 0);
+
+            k1 += k2;
+            k1 -= k2;
+            k1 *= k2;
+            k1 /= k2;
+            var komplex = k1 + k2;
+            komplex = k1 - k2;
+            komplex = k1 * k2;
+            komplex = k1 / k2;
+
+            var d = komplex[0];
+        }
         private double img, real;
 
         public Komplex(double real, double img)
