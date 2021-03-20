@@ -56,6 +56,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_ThreadPool", "Z_ThreadPoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zz_Tasks", "zz_Tasks\zz_Tasks.csproj", "{950314F4-A77F-4CF2-96C7-794779652926}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzz_Probeklausur", "zzz_Probeklausur\zzz_Probeklausur.csproj", "{A24589A5-C158-4B83-BA00-53DDD47614D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -174,5 +176,9 @@ Global
 		{950314F4-A77F-4CF2-96C7-794779652926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{950314F4-A77F-4CF2-96C7-794779652926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{950314F4-A77F-4CF2-96C7-794779652926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24589A5-C158-4B83-BA00-53DDD47614D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24589A5-C158-4B83-BA00-53DDD47614D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24589A5-C158-4B83-BA00-53DDD47614D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24589A5-C158-4B83-BA00-53DDD47614D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
